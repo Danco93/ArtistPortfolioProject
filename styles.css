@@ -1,3 +1,19 @@
+* {
+  font-family: "Cormorant", serif;
+}
 body {
   background-color: antiquewhite;
+}
+img {
+  max-width: 50%;
+  display: inline-block;
+}
+h1 {
+  display: inline;
+}
+h2 {
+  display: inline;
+}
+#work {
+  text-decoration: underline;
 }
