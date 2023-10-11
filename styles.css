@@ -8,12 +8,29 @@ img {
   max-width: 50%;
   display: inline-block;
 }
+.navbar {
+  margin: 32px;
+}
 h1 {
-  display: inline;
+  display: inline-block;
+  font-weight: 300;
+  margin: 0 32px 0 0;
 }
-h2 {
-  display: inline;
+.nav {
+  display: inline-block;
 }
-#work {
-  text-decoration: underline;
+.nav ul {
+  padding: 0;
+}
+.nav li {
+  display: inline-block;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin: 0px 8px;
+}
+a.active {
+  border-bottom: 1px solid black;
 }
