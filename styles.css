@@ -4,17 +4,13 @@
 body {
   background-color: antiquewhite;
 }
-img {
-  max-width: 50%;
-  display: inline-block;
-}
-.navbar {
-  margin: 32px;
-}
 h1 {
   display: inline-block;
   font-weight: 300;
   margin: 0 32px 0 0;
+}
+.navbar {
+  margin: 32px;
 }
 .nav {
   display: inline-block;
@@ -31,6 +27,51 @@ h1 {
   color: black;
   margin: 0px 8px;
 }
+.gallery {
+  padding: 16px;
+}
+.card {
+  width: 49.75%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 16px;
+}
+.card img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.card h2 {
+  display: inline-block;
+  font-weight: 100;
+  margin: 8px 0 16px 0;
+}
+.card img:hover {
+  opacity: 0.9;
+}
+
 a.active {
   border-bottom: 1px solid black;
+}
+.about {
+  max-width: 40%;
+  min-width: 600px;
+  margin: 100px 100px 0 200px;
+}
+.contact {
+  margin-top: 100px;
+}
+.about h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+.contact p {
+  margin: 0;
+  font-size: 20px;
+}
+.cta {
+  border-bottom: 1px solid black;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-top: 0;
 }
